@@ -9,6 +9,7 @@ var scrsize
 var spsize
 onready var anisp = $AnimatedSprite
 
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	direct=Vector2.ZERO
@@ -63,6 +64,7 @@ func checkForward():
 	if(Input.is_action_just_released("ui_down")):
 		anisp.animation = animfront["fi"]
 
+
 func checkBack():
 	if(Input.is_action_pressed("ui_up")):
 		direct=Vector2.UP
@@ -71,6 +73,7 @@ func checkBack():
 	
 	if(Input.is_action_just_released("ui_up")):
 		anisp.animation = animback["bi"]
+
 
 func _physics_process(delta):
 	var c = move_and_collide(direct*speed*delta)
