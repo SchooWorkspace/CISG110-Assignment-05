@@ -1,6 +1,6 @@
 extends KinematicBody2D
 
-var respawn_position := Vector2(400, 600)
+export var respawn_position := Vector2(400, 600)
 
 var gravity = 1200
 var velocity = Vector2.ZERO
