@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/music_duckerson.mp3-87fe6b0c8b935f38bd53ae10ce66a053.mp3str"
+
+[deps]
+
+source_file="res://Media/music_duckerson.mp3"
+dest_files=[ "res://.import/music_duckerson.mp3-87fe6b0c8b935f38bd53ae10ce66a053.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
