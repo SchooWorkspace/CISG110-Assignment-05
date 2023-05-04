@@ -38,6 +38,7 @@ func _process(delta):
 	
 	if position.y > 1500:
 		position = respawn_position
+		velocity.y = 0
 
 
 

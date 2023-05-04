@@ -78,7 +78,7 @@ script = ExtResource( 49 )
 scale = Vector2( 0.25, 0.25 )
 frames = SubResource( 1 )
 animation = "Idle"
-frame = 14
+frame = 7
 speed_scale = 6.0
 playing = true
 
@@ -87,7 +87,6 @@ position = Vector2( 0, 13 )
 shape = SubResource( 2 )
 
 [node name="Camera2D" type="Camera2D" parent="."]
-modulate = Color( 0.4, 0.854902, 0.980392, 1 )
 current = true
 limit_left = 0
 limit_top = 0
