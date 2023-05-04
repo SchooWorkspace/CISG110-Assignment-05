@@ -11,6 +11,11 @@ config_version=4
 [application]
 
 config/name="Assignment5"
+run/main_scene="res://Scene/Level1.tscn"
+
+[display]
+
+window/size/width=800
 
 [gui]
 
