@@ -2,7 +2,7 @@ extends KinematicBody2D
 
 export var respawn_position := Vector2(400, 600)
 
-var gravity = 1200
+var gravity = 120 0
 var velocity = Vector2.ZERO
 var maxHorizontalSpeed = 360
 var horizontalAcceleration = 1000
