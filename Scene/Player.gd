@@ -17,7 +17,7 @@ func _ready():
 	anisp.animation = animfront["fi"]
 	scrsize = Vector2(1920,1080)
 	spsize = anisp.frames.get_frame("BackIdle", 0).get_size()
-	print("SP size is ",spsize)
+	print("SP  size is ",spsize)
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
